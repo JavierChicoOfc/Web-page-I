@@ -1,0 +1,335 @@
+/* [-------Style File-------] */
+
+/* [Basic Elements] */
+
+nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 125px;
+    font-size: 25px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    justify-content: center;
+}
+
+body{
+    margin: 0px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 125px;
+    font-size: 25px;
+}
+
+button{
+    color: rgb(206, 3, 3);
+    font-family:"Valorant";
+    border-color: white;
+    border-width: 3px;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 30px;
+    align-content: center;
+    height: 35px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: ivory;
+}
+
+a:hover{
+    color: ivory;
+}
+
+/* [Fonts] */
+
+.customfont_links{
+    font-family:"VALORANT",sans-serif;
+    color: rgb(206, 3, 3);
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.title_text_font{  
+    margin: auto;
+    width: 50%;
+    margin-top: 130px;  
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Bebas', sans-serif;
+}
+
+.title_text_font2{   
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Bebas', sans-serif;
+}
+.title_text_font_AU{    
+    margin-top: 130px;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Bebas', sans-serif;;
+}
+
+.title_text_font_exp{  
+    margin: auto;
+    width: 50%;
+    margin-top: 30px;  
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bebas', sans-serif;
+}
+
+.subtitle_text_font{    
+    margin: auto;
+    color: rgb(2, 2, 2);
+    font-size: 26px;
+    text-align: justify;
+    font-family:"Enigmatic",sans-serif;
+}
+
+.text_font{    
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text_font_exp{    
+    width: 75%;
+    margin: 15px auto auto auto;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#text_font_AU{    
+    margin: auto;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 40%;
+}
+
+/* [Text Classes] */
+
+.margin_text{
+    margin: auto;
+    max-width: 70%;
+}
+
+.text_black{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: justify;
+}
+
+.text_center{
+    text-align: center;
+}
+
+/* [Images Classes] */
+
+.img_settings{
+    margin-top: 30px;
+    width: 23vw;
+}
+
+.img_settings_map_page2{
+    margin-top: 10px;
+    margin: auto;
+    width: 100px;;
+    height: 100px;
+}
+
+.img_settings_map_page{
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.full_width_image{
+    width: 100%;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+}
+
+.item{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+#background_img{
+    background-image: url("https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt881609ccc5207499/60b1901d3aac347374b5d9d1/VALORANT_YR1_ArticleHero_16_9.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.valorant_tournaments_icon {
+    height: 112px;
+    width: 200.76px;
+    margin: auto;
+}
+
+/* [Single Elements] */
+
+#map{
+    display: flex;
+    margin: auto;
+}
+
+#search_bar{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#email_box{
+    width: 500px;
+}
+
+#text_box{
+    font-size: 10pt;
+    height: 500px;
+    width : 500px;
+}
+
+/* [Grid Elements] */
+
+.general_grid{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid_1{
+    margin-top: 40px;
+    margin-bottom: -40px;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+    align-items: baseline;
+}
+
+.grid_2{
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+    align-items: baseline;
+}
+
+.grid_3{
+    margin-top: 40px;
+    margin-bottom: -40px;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: baseline;
+    display: grid;
+}
+
+.grid_pag_map{
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid_pag_map2{
+    margin-top: 40px;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+/* [Other Classes] */
+
+.auto_margin {
+    margin: auto;
+}
+
+.div_exp{
+    text-align: center;
+}
+
+a:link{
+    color:black;
+    background-color:transparent;
+    text-decoration:none;
+}
+
+/* [Responsive System] */
+
+@media only screen and (max-width:768px){
+
+    .img_settings{
+        width: 30vw;
+    }
+    nav{
+        position:absolute;
+    }
+    #map_section{
+        transform: scale(0.65);
+        margin-right: 80%;
+    }
+    .customfont_links{
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+    .text_font_exp{    
+        text-align: none;
+    }
+    .general_grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid_pag_map{
+        grid-template-columns: 1fr 1fr;
+    }
+    #background_img{
+        background-image: url("https://www.xtrafondos.com/wallpapers/vertical/valorant-logo-5549.jpg");
+    }
+    #text_font_AU{    
+        max-width: 90%;
+    }
+
+    
+}
+
+@media only screen and (max-width:600px){
+
+    .customfont_links{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #map_section{
+        transform: scale(0.55);
+        margin-right: 90%;
+    }
+    
+    #text_font_AU{    
+        max-width: 80%;
+    }
+
+}
+
